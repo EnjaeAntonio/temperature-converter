@@ -103,7 +103,6 @@ h1 {
 form {
     display: flex;
     margin-top: 20px;
-    width: 50%;
     text-align: right;
 }
 
@@ -237,7 +236,7 @@ input:checked + .slider:before {
 
 .input-and-btn {
     display: flex;
-    width: 30%;
+    text-align: center;
 }
 
 .radio-btn {
@@ -273,7 +272,7 @@ input:focus {
 
 .themes {
     cursor: pointer;
-    width: 150px;
+    width: 120px;
     font-size: 17px;
     font-weight: 600;
     line-height: 35px;
@@ -325,3 +324,4 @@ input:focus {
 .dark-mode .output > p {
     color: #000;
 }
+
