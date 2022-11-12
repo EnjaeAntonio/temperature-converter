@@ -15,6 +15,7 @@ const enterNumber = select('.enternumber');
 const checked = select('.check');
 const result = select('.result');
 const output = select('.output p');
+const clear = select('.clear')
 
 onEvent('click', result, () => {
 
@@ -33,6 +34,9 @@ onEvent('click', result, () => {
 
 });
 
+onEvent('click', clear, () => {
+    output.innerText = '';
+})
 
 
 function myFunction() {
