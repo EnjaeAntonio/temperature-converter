@@ -29,7 +29,6 @@ onEvent('click', result, () => {
     } else {
         let toF = a * 1.8 + 32; 
         output.innerText = `${a}C = ${toF.toFixed(2)}F`
-       
     } 
 
 });
